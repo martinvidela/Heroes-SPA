@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../../ui/components/NavBar";
+import { Navbar } from "../../ui/components/Navbar";
 import { DcPage, MarvelPage, SearchPage, HeroPage } from "../pages";
 import { Navigate, Route, Routes } from "react-router-dom";
 
