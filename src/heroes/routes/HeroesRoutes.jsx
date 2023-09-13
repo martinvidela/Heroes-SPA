@@ -3,7 +3,7 @@ import { Navbar } from "../../ui/components/NavBar";
 import { DcPage, MarvelPage, SearchPage, HeroPage } from "../pages";
 import { Navigate, Route, Routes } from "react-router-dom";
 
-export const heroesRoutes = () => {
+export const HeroesRoutes = () => {
   return (
     <div>
       <Navbar />
