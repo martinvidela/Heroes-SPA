@@ -5,7 +5,6 @@ import { getHeroById } from "../helpers";
 export const HeroPage = () => {
   const navigate = useNavigate();
   const { id } = useParams();
-
   const hero = useMemo(() => getHeroById(id), [id]);
 
   const onNavigateBack = () => {
@@ -20,9 +19,9 @@ export const HeroPage = () => {
     <div className="row mt-5 animate__animated animate__fadeInLeft">
       <div className="col-4">
         <img
-          src={`/assets/heroes/${id}.jpg`}
+          src={`/src/assets/heroes/${id}.jpg`}
           alt={hero.superhero}
-          className="img-thumbnail "
+          className="img-thumbnail"
         />
       </div>
       <div className="col-8">
