@@ -1,7 +1,7 @@
 import React from "react";
 import { LoginPage } from "../auth";
-import { HeroesRoutes } from "../heroes/routes/heroesRoutes";
 import { Route, Routes } from "react-router-dom";
+import { HeroesRoutes } from "../heroes/routes/heroesRoutes";
 
 export const AppRouter = () => {
   return (
